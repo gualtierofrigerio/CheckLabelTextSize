@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25108D5029E0431900EFF406 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25108D4F29E0431900EFF406 /* AppDelegate.swift */; };
+		25108D5229E0431900EFF406 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25108D5129E0431900EFF406 /* SceneDelegate.swift */; };
+		25108D5429E0431900EFF406 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25108D5329E0431900EFF406 /* ViewController.swift */; };
+		25108D5729E0431900EFF406 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25108D5529E0431900EFF406 /* Main.storyboard */; };
+		25108D5929E0431B00EFF406 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25108D5829E0431B00EFF406 /* Assets.xcassets */; };
+		25108D5C29E0431B00EFF406 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25108D5A29E0431B00EFF406 /* LaunchScreen.storyboard */; };
+		25108D6729E0431C00EFF406 /* CheckLabelTextSizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25108D6629E0431C00EFF406 /* CheckLabelTextSizeTests.swift */; };
+		25108D7129E0431C00EFF406 /* CheckLabelTextSizeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25108D7029E0431C00EFF406 /* CheckLabelTextSizeUITests.swift */; };
+		25108D8029E0434D00EFF406 /* UILabel+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25108D7F29E0434D00EFF406 /* UILabel+ext.swift */; };
+		25108D8329E0447600EFF406 /* UIView+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25108D8229E0447600EFF406 /* UIView+ext.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25108D6329E0431C00EFF406 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25108D4429E0431800EFF406 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25108D4B29E0431900EFF406;
+			remoteInfo = CheckLabelTextSize;
+		};
+		25108D6D29E0431C00EFF406 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25108D4429E0431800EFF406 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25108D4B29E0431900EFF406;
+			remoteInfo = CheckLabelTextSize;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25108D4C29E0431900EFF406 /* CheckLabelTextSize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckLabelTextSize.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25108D4F29E0431900EFF406 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		25108D5129E0431900EFF406 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		25108D5329E0431900EFF406 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		25108D5629E0431900EFF406 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25108D5829E0431B00EFF406 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25108D5B29E0431B00EFF406 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25108D5D29E0431B00EFF406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25108D6229E0431C00EFF406 /* CheckLabelTextSizeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckLabelTextSizeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25108D6629E0431C00EFF406 /* CheckLabelTextSizeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLabelTextSizeTests.swift; sourceTree = "<group>"; };
+		25108D6C29E0431C00EFF406 /* CheckLabelTextSizeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckLabelTextSizeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25108D7029E0431C00EFF406 /* CheckLabelTextSizeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLabelTextSizeUITests.swift; sourceTree = "<group>"; };
+		25108D7F29E0434D00EFF406 /* UILabel+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+ext.swift"; sourceTree = "<group>"; };
+		25108D8229E0447600EFF406 /* UIView+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ext.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25108D4929E0431900EFF406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25108D5F29E0431C00EFF406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25108D6929E0431C00EFF406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25108D4329E0431800EFF406 = {
+			isa = PBXGroup;
+			children = (
+				25108D4E29E0431900EFF406 /* CheckLabelTextSize */,
+				25108D6529E0431C00EFF406 /* CheckLabelTextSizeTests */,
+				25108D6F29E0431C00EFF406 /* CheckLabelTextSizeUITests */,
+				25108D4D29E0431900EFF406 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25108D4D29E0431900EFF406 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25108D4C29E0431900EFF406 /* CheckLabelTextSize.app */,
+				25108D6229E0431C00EFF406 /* CheckLabelTextSizeTests.xctest */,
+				25108D6C29E0431C00EFF406 /* CheckLabelTextSizeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25108D4E29E0431900EFF406 /* CheckLabelTextSize */ = {
+			isa = PBXGroup;
+			children = (
+				25108D8129E0435A00EFF406 /* Extentions */,
+				25108D4F29E0431900EFF406 /* AppDelegate.swift */,
+				25108D5129E0431900EFF406 /* SceneDelegate.swift */,
+				25108D5329E0431900EFF406 /* ViewController.swift */,
+				25108D5529E0431900EFF406 /* Main.storyboard */,
+				25108D5829E0431B00EFF406 /* Assets.xcassets */,
+				25108D5A29E0431B00EFF406 /* LaunchScreen.storyboard */,
+				25108D5D29E0431B00EFF406 /* Info.plist */,
+			);
+			path = CheckLabelTextSize;
+			sourceTree = "<group>";
+		};
+		25108D6529E0431C00EFF406 /* CheckLabelTextSizeTests */ = {
+			isa = PBXGroup;
+			children = (
+				25108D6629E0431C00EFF406 /* CheckLabelTextSizeTests.swift */,
+			);
+			path = CheckLabelTextSizeTests;
+			sourceTree = "<group>";
+		};
+		25108D6F29E0431C00EFF406 /* CheckLabelTextSizeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				25108D7029E0431C00EFF406 /* CheckLabelTextSizeUITests.swift */,
+			);
+			path = CheckLabelTextSizeUITests;
+			sourceTree = "<group>";
+		};
+		25108D8129E0435A00EFF406 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				25108D7F29E0434D00EFF406 /* UILabel+ext.swift */,
+				25108D8229E0447600EFF406 /* UIView+ext.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25108D4B29E0431900EFF406 /* CheckLabelTextSize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25108D7629E0431C00EFF406 /* Build configuration list for PBXNativeTarget "CheckLabelTextSize" */;
+			buildPhases = (
+				25108D4829E0431900EFF406 /* Sources */,
+				25108D4929E0431900EFF406 /* Frameworks */,
+				25108D4A29E0431900EFF406 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckLabelTextSize;
+			productName = CheckLabelTextSize;
+			productReference = 25108D4C29E0431900EFF406 /* CheckLabelTextSize.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25108D6129E0431C00EFF406 /* CheckLabelTextSizeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25108D7929E0431C00EFF406 /* Build configuration list for PBXNativeTarget "CheckLabelTextSizeTests" */;
+			buildPhases = (
+				25108D5E29E0431C00EFF406 /* Sources */,
+				25108D5F29E0431C00EFF406 /* Frameworks */,
+				25108D6029E0431C00EFF406 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25108D6429E0431C00EFF406 /* PBXTargetDependency */,
+			);
+			name = CheckLabelTextSizeTests;
+			productName = CheckLabelTextSizeTests;
+			productReference = 25108D6229E0431C00EFF406 /* CheckLabelTextSizeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		25108D6B29E0431C00EFF406 /* CheckLabelTextSizeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25108D7C29E0431C00EFF406 /* Build configuration list for PBXNativeTarget "CheckLabelTextSizeUITests" */;
+			buildPhases = (
+				25108D6829E0431C00EFF406 /* Sources */,
+				25108D6929E0431C00EFF406 /* Frameworks */,
+				25108D6A29E0431C00EFF406 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25108D6E29E0431C00EFF406 /* PBXTargetDependency */,
+			);
+			name = CheckLabelTextSizeUITests;
+			productName = CheckLabelTextSizeUITests;
+			productReference = 25108D6C29E0431C00EFF406 /* CheckLabelTextSizeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25108D4429E0431800EFF406 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					25108D4B29E0431900EFF406 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					25108D6129E0431C00EFF406 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 25108D4B29E0431900EFF406;
+					};
+					25108D6B29E0431C00EFF406 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 25108D4B29E0431900EFF406;
+					};
+				};
+			};
+			buildConfigurationList = 25108D4729E0431800EFF406 /* Build configuration list for PBXProject "CheckLabelTextSize" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25108D4329E0431800EFF406;
+			productRefGroup = 25108D4D29E0431900EFF406 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25108D4B29E0431900EFF406 /* CheckLabelTextSize */,
+				25108D6129E0431C00EFF406 /* CheckLabelTextSizeTests */,
+				25108D6B29E0431C00EFF406 /* CheckLabelTextSizeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25108D4A29E0431900EFF406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25108D5C29E0431B00EFF406 /* LaunchScreen.storyboard in Resources */,
+				25108D5929E0431B00EFF406 /* Assets.xcassets in Resources */,
+				25108D5729E0431900EFF406 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25108D6029E0431C00EFF406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25108D6A29E0431C00EFF406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25108D4829E0431900EFF406 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25108D5429E0431900EFF406 /* ViewController.swift in Sources */,
+				25108D5029E0431900EFF406 /* AppDelegate.swift in Sources */,
+				25108D8029E0434D00EFF406 /* UILabel+ext.swift in Sources */,
+				25108D5229E0431900EFF406 /* SceneDelegate.swift in Sources */,
+				25108D8329E0447600EFF406 /* UIView+ext.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25108D5E29E0431C00EFF406 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25108D6729E0431C00EFF406 /* CheckLabelTextSizeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25108D6829E0431C00EFF406 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25108D7129E0431C00EFF406 /* CheckLabelTextSizeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25108D6429E0431C00EFF406 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25108D4B29E0431900EFF406 /* CheckLabelTextSize */;
+			targetProxy = 25108D6329E0431C00EFF406 /* PBXContainerItemProxy */;
+		};
+		25108D6E29E0431C00EFF406 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25108D4B29E0431900EFF406 /* CheckLabelTextSize */;
+			targetProxy = 25108D6D29E0431C00EFF406 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25108D5529E0431900EFF406 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25108D5629E0431900EFF406 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		25108D5A29E0431B00EFF406 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25108D5B29E0431B00EFF406 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25108D7429E0431C00EFF406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		25108D7529E0431C00EFF406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25108D7729E0431C00EFF406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CheckLabelTextSize/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gfrigerio.CheckLabelTextSize;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25108D7829E0431C00EFF406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CheckLabelTextSize/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gfrigerio.CheckLabelTextSize;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		25108D7A29E0431C00EFF406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gfrigerio.CheckLabelTextSizeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckLabelTextSize.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CheckLabelTextSize";
+			};
+			name = Debug;
+		};
+		25108D7B29E0431C00EFF406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gfrigerio.CheckLabelTextSizeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckLabelTextSize.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CheckLabelTextSize";
+			};
+			name = Release;
+		};
+		25108D7D29E0431C00EFF406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gfrigerio.CheckLabelTextSizeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CheckLabelTextSize;
+			};
+			name = Debug;
+		};
+		25108D7E29E0431C00EFF406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gfrigerio.CheckLabelTextSizeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CheckLabelTextSize;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25108D4729E0431800EFF406 /* Build configuration list for PBXProject "CheckLabelTextSize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25108D7429E0431C00EFF406 /* Debug */,
+				25108D7529E0431C00EFF406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25108D7629E0431C00EFF406 /* Build configuration list for PBXNativeTarget "CheckLabelTextSize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25108D7729E0431C00EFF406 /* Debug */,
+				25108D7829E0431C00EFF406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25108D7929E0431C00EFF406 /* Build configuration list for PBXNativeTarget "CheckLabelTextSizeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25108D7A29E0431C00EFF406 /* Debug */,
+				25108D7B29E0431C00EFF406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25108D7C29E0431C00EFF406 /* Build configuration list for PBXNativeTarget "CheckLabelTextSizeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25108D7D29E0431C00EFF406 /* Debug */,
+				25108D7E29E0431C00EFF406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25108D4429E0431800EFF406 /* Project object */;
+}
