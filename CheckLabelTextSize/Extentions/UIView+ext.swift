@@ -30,3 +30,13 @@ extension UIView {
     }
 }
 
+extension UIView {
+    func horizontalMidSizeCentered() {
+        guard let superview = superview else { return }
+        translatesAutoresizingMaskIntoConstraints = false
+        NSLayoutConstraint.activate([
+            centerXAnchor.constraint(equalTo: superview.centerXAnchor),
+            widthAnchor.constraint(equalTo: superview.widthAnchor, multiplier: 0.5)
+        ])
+    }
+}
